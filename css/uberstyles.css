@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/* the main header contain uber & nav links*/
+header {
+    background-color: black;
+    width: 100%;
+}
+header h1 {
+    color: white;
+    font-size: large;
+}
+h1, .main-header, .header-nav {
+    display: flex;
+    margin: 10px 40px;
+    font-size: medium;
+    padding: 5px;
+    margin-bottom: 0;
+}
+.header-nav1 {
+    margin-right: 130px;
+}
+.header-nav2 {
+    margin-right: 60px;
+    margin-left: 100px;
+    /* flex: 2; */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 30px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header button {
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.nav-btn {
+    margin-top: -10px;
+}
+
+/* the first section after the header containing several icons */
+.section-container {
+    background-color: #DDA754;
+    height: 120vh;
+    margin-bottom: 0;
+    border: 1px solid #DDA754;
+}
+.section-navbar {
+    border: 1px solid white;
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 130px;
+    padding-top: 60px;
+}
+section nav ul li a {
+    color: black !important;
+    margin-left: 75px;
+}
+.section-signup {
+    border: 1px solid white;
+    margin-left: 130px;
+    width: 40%;
+    height: 70vh;
+    background-color: white;
+    /* overflow: visible; */
+    margin-top: 0.3px;
+}
+.sectionh1 {
+    font-size: 40px;
+    font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 20px 40px;
+
+}
+section p {
+    margin: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed',
+    sans-serif;
+}
+.section-btn {
+    margin: 20px 40px;
+    font-size: medium;
+    padding: 15px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+.section-signup a {
+    text-decoration: underline;
+    color: black;
+    font-weight: lighter;
+}
+
+/* this is for the image svg designs */
+.svg-section {
+    border: 1px solid #CDD4D1;
+    background-color: #CDD4D1;
+    height: 80vh;
+}
+.svg-title {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.svg-section a {
+    margin-left: 130px;
+    color: black;
+}
+
+/* the article section */
+
+
+
