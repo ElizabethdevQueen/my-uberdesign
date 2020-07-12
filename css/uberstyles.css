@@ -5,9 +5,9 @@
 }
 body {
     background-color: white;
-    width: 100%;
-    height: 100vh;
-    position: relative;
+    width: auto;
+    height: auto;
+    /* position: relative; */
 }
 /* the main header contain uber & nav links*/
 header {
@@ -30,7 +30,7 @@ h1, .main-header, .header-nav {
 }
 .header-nav2 {
     margin-right: 60px;
-    margin-left: 100px;
+    margin-left: 120px;
     /* flex: 2; */
 }
 nav ul {
@@ -38,11 +38,15 @@ nav ul {
     display: flex;
 }
 nav ul li {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+header nav ul li i {
+    color: white;
+    /* position: relative; */
 }
 header button {
     width: 80px;
@@ -59,6 +63,7 @@ header button {
     height: 120vh;
     margin-bottom: 0;
     border: 1px solid #DDA754;
+    position: relative;
 }
 .section-navbar {
     border: 1px solid white;
@@ -67,19 +72,29 @@ header button {
     background-color: white;
     margin-top: 60px;
     margin-left: 130px;
-    padding-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
 }
 section nav ul li a {
     color: black !important;
-    margin-left: 75px;
+    margin-left: 80px;
+    display: grid;
+    justify-items: center;
 }
+section nav ul li a i {
+    margin-bottom: 20px;
+    /* position: absolute; */
+}
+
+/* the second box in the section just after the header  */
 .section-signup {
     border: 1px solid white;
     margin-left: 130px;
     width: 40%;
-    height: 70vh;
+    height: 80vh;
     background-color: white;
-    /* overflow: visible; */
+    position: relative;
     margin-top: 0.3px;
 }
 .sectionh1 {
@@ -105,16 +120,25 @@ section p {
     width: 30%;
 }
 .section-signup a {
-    text-decoration: underline;
     color: black;
     font-weight: lighter;
 }
+.section-img img{
+    height: 80vh;
+    transform: translateY(-70%);
+    margin-left: 535px;
+    margin-top: 1px;
+    width: 100%;
+    position: absolute;
+}
+
 
 /* this is for the image svg designs */
 .svg-section {
     border: 1px solid #CDD4D1;
     background-color: #CDD4D1;
-    height: 80vh;
+    height: 75vh;
+    width: 100%;
 }
 .svg-title {
     font-size: xx-large;
@@ -127,8 +151,34 @@ section p {
     margin-left: 130px;
     color: black;
 }
+.svg-sectionimgs img{
+    margin-right: 80px;
+}
+.image1 {
+    transform: rotateY(180deg);
+}
+.image4 {
+    transform: rotateY(180deg);
+    position: absolute;
+}
 
 /* the article section */
-
+.article-container {
+    height: auto;
+}
+.article-container h1, p {
+    margin-left: 130px;
+    color: black;
+    padding: 10px;
+}
+.article-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.article-box img, h1, p {
+    margin-left: 30px !important;
+}
 
 
