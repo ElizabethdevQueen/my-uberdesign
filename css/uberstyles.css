@@ -200,10 +200,13 @@ section p {
     margin-left: 130px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    line-height: 30px;
 }
 .next-article .articlehead {
     margin-left: -10px;
     font-size: xxx-large;
+    line-height: 30px;
+    padding-bottom: 20px;
 }
 .next-article img {
     width: 100%;
@@ -214,8 +217,31 @@ section p {
 .about-section, .signup-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 130px;
+    padding-top: 60px;
 }
-
+.about-section {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.signup-section {
+    font-size: xxx-large;
+    text-decoration-color: black;
+    /* background-color: black !important; */
+}
+.signup-section .fa {
+    margin-left: 100px;
+}
+.about {
+    display: grid;
+    padding-bottom: 10px;
+}
+.about i {
+    margin-bottom: 10px;
+}
+.footer {
+    border: 1px solid black;
+    background-color: black;
+}
 
