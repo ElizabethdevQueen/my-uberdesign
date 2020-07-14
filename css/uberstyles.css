@@ -150,9 +150,12 @@ section p {
 .svg-section a {
     margin-left: 130px;
     color: black;
+    margin-bottom: 20px;
 }
 .svg-sectionimgs img{
     margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 .image1 {
     transform: rotateY(180deg);
@@ -166,19 +169,53 @@ section p {
 .article-container {
     height: auto;
 }
-.article-container h1, p {
+.articlehead {
     margin-left: 130px;
     color: black;
     padding: 10px;
+    font-size: xx-large;
+}
+.article-container .articlehead1 {
+    margin-left: 130px;
 }
 .article-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin-top: 30px;
-    margin-left: 40px;
+    margin-top: 40px;
+    margin-left: 130px;
+    max-height: 90%;
+    /* column-gap: 1px; */
 }
-.article-box img, h1, p {
-    margin-left: 30px !important;
+.article-box .articlehead2 {
+    margin-left: -10px;
+}
+.article-box a {
+    /* margin-left: 40px; */
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+/* the second part in the article section */
+.next-article {
+    margin-top: 70px;
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.next-article .articlehead {
+    margin-left: -10px;
+    font-size: xxx-large;
+}
+.next-article img {
+    width: 100%;
+    min-height: 60%;
+    margin-right: -30px;
+}
+/* the about section in the article */
+.about-section, .signup-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-top: 30px;
+    margin-left: 130px;
 }
 
 
